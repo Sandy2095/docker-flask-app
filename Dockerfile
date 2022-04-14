@@ -1,6 +1,6 @@
 FROM alpine:3.5
 
-RUN apk add --update py2-pip
+RUN apk add --update py3-pip
 
 COPY requirements.txt /docker_apps/webapps
 RUN pip install --no-cache-dir -r /docker_apps/webapps/requirements.txt
