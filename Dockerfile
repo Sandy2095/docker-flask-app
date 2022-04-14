@@ -10,4 +10,4 @@ COPY templates/index.html /docker_apps/webapps/templates
 
 EXPOSE 5000
 
-CMD['python', '/docker_apps/webapps/app.py']
+CMD ['python', '/docker_apps/webapps/app.py']
